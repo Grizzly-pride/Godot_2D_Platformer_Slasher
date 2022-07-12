@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprites/Platforms/GrabWall.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 21, 21 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Castle_Grab_1" type="Sprite" parent="."]
+position = Vector2( 21, 21 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 42, 42 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Castle_Grab_1"]
+collision_layer = 8
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Castle_Grab_1/StaticBody2D"]
+shape = SubResource( 1 )

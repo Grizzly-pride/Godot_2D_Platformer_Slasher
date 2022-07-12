@@ -1,0 +1,227 @@
+[gd_scene load_steps=46 format=2]
+
+[ext_resource path="res://Sprites/Player/Dust.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Dust_player.gd" type="Script" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 400, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 400, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 400, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 400, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 80, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 80, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 80, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 80, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 240, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 240, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 240, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 240, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 1 )
+region = Rect2( 400, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 1 )
+region = Rect2( 500, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 1 )
+region = Rect2( 600, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 1 )
+region = Rect2( 700, 480, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 1 )
+region = Rect2( 400, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 1 )
+region = Rect2( 500, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 1 )
+region = Rect2( 600, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 1 )
+region = Rect2( 700, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 1 )
+region = Rect2( 800, 560, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 0, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 0, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 0, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 160, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 160, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 160, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 160, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 320, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 1 )
+region = Rect2( 100, 320, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 1 )
+region = Rect2( 200, 320, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 1 )
+region = Rect2( 300, 320, 100, 80 )
+
+[sub_resource type="AtlasTexture" id=42]
+atlas = ExtResource( 1 )
+region = Rect2( 400, 320, 100, 80 )
+
+[sub_resource type="SpriteFrames" id=43]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": false,
+"name": "Wall_jump_dust",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ],
+"loop": false,
+"name": "Jump_dust",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ) ],
+"loop": false,
+"name": "Hanging_dust",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": false,
+"name": "Start_sliding_dust",
+"speed": 8.0
+}, {
+"frames": [ SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ) ],
+"loop": true,
+"name": "Sliding_dust",
+"speed": 13.0
+}, {
+"frames": [ SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ) ],
+"loop": false,
+"name": "Stop_dust",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ) ],
+"loop": false,
+"name": "Landing_dust",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ) ],
+"loop": false,
+"name": "Wall_landing_dust",
+"speed": 9.0
+} ]
+
+[node name="Dust" type="Node2D"]
+light_mask = 0
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+light_mask = 0
+frames = SubResource( 43 )
+animation = "Sliding_dust"
+frame = 8
+
+[connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]

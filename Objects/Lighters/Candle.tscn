@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprites/Texture/Light_texture.png" type="Texture" id=1]
+[ext_resource path="res://Objects/Lighters/Candle_anim.tres" type="Texture" id=2]
+
+[node name="Candle" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+light_mask = 0
+texture = ExtResource( 2 )
+
+[node name="Light2D" type="Light2D" parent="Sprite"]
+texture = ExtResource( 1 )
+texture_scale = 0.7
+color = Color( 0.807843, 0.615901, 0.105882, 1 )
+energy = 2.0
+shadow_enabled = true
+shadow_item_cull_mask = 3

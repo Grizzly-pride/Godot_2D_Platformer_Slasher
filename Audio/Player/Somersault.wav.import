@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Somersault.wav-c43b3f58d2baab59d39a8d8c834c7da4.sample"
+
+[deps]
+
+source_file="res://Audio/Player/Somersault.wav"
+dest_files=[ "res://.import/Somersault.wav-c43b3f58d2baab59d39a8d8c834c7da4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
